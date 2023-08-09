@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.main-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 3vh;
+    width: auto;
+    margin-bottom: 20px;
+    background-color: black;
+    color: aliceblue;
+}
+.photo-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 2vh;
+    width: auto;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+.photos > img{
+    height: 20px;
+    width: 20px;
+    margin-right: 25px;
+}
+.info{
+    margin-right: 25px;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+}
+.sub-icons{
+    margin-right: 5px;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+}
+.sub-links{
+    margin-right: 5px;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav > img{
+    margin-left: 20px;
+}
+.ul > ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.ul{
+    position: relative;
+    right: -110px;
+}
+.items-ul{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+.items-ul > li {
+    margin: 0px 20px 0px 20px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 150px;
+    border: 1px solid black;
+    color: aliceblue;
+    background: linear-gradient(90deg, rgba(56,33,78,1) 5%, rgba(141,99,193,1) 35%, rgba(89,11,142,1) 67%, rgba(0,212,255,1) 100%);
+}
+
+.desc {
+    background-image: url(./bg.jpg);
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: auto;
+    color: white; /* Text color changed to white */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc h1 {
+    color: inherit; /* Inherit text color from .desc */
+    text-align: center;
+    white-space: normal; /* Allow text to wrap into multiple lines */
+}
+
+.desc h1 span {
+    color: #e74c3c; /* Example color for the span text */
+}
+
+.desc hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    width: 50%;
+    margin: 10px auto;
+}
+
+.desc p {
+    text-align: center;
+}
+
+.desc .btns {
+    margin-top: 20px;
+}
+
+.desc button {
+    background-color: #3498db; /* Example button color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.desc button:hover {
+    background-color: #2980b9; /* Example button color on hover */
+}
+.elem{
+    position: relative;
+    left: -50px;
+}
